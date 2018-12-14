@@ -350,37 +350,6 @@ class GFPaynamics extends GFPaymentAddOn {
 
 	}
 
-
-	/**
-	 * Prevent feeds being listed or created if the API keys aren't valid.
-	 *
-	 * @since  Unknown
-	 * @access public
-	 *
-	 * @used-by GFFeedAddOn::feed_edit_page()
-	 * @used-by GFFeedAddOn::feed_list_message()
-	 * @used-by GFFeedAddOn::feed_list_title()
-	 * @uses    GFAddOn::get_plugin_settings()
-	 * @uses    GFPaynamics::get_api_mode()
-	 *
-	 * @return bool True if feed creation is allowed. False otherwise.
-	 
-	 
-	public function can_create_feed() {
-
-		// Get plugin settings and API mode.
-		$settings = $this->get_plugin_settings();
-		$api_mode = $this->get_api_mode( $settings );
-
-		// Return valid key state based on API mode.
-		if ( 'live' === $api_mode ) {
-			return rgar( $settings, 'live_api_merchant_key_is_valid' ) && rgar( $settings, 'live_api_merchant_id_is_valid' ) && rgar( $settings, 'live_frontend_url_is_valid' );
-		} else {
-			return rgar( $settings, 'test_api_merchant_key_is_valid'  ) && rgar( $settings, 'test_api_merchant_id_is_valid' ) && rgar( $settings, 'test_frontend_url_is_valid' );
-		}
-
-	}*/
-
 	/**
 	 * Enable feed duplication on feed list page and during form duplication.
 	 *
