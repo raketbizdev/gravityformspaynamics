@@ -3,7 +3,7 @@
 This addon Frameworks is 
 
  * Plugin Name: Gravity Forms Paynamics Add On
- * Plugin URI: https://www.gravityforms.com
+ * Plugin URI: https://github.com/rakethostph/gravityformspaynamics
  * Description: Integrates Gravity Forms with Paynamics, enabling end users to purchase goods and services through Gravity Forms.
  * Version: 1.0
  * Author: RaketHost
