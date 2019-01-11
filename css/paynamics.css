@@ -1,0 +1,48 @@
+.paynamics_form_wrapper {
+	width: 400px !important; 
+	margin:0 auto !important; 
+	border: 1px solid #ededed !important; 
+	position: relative !important; 
+}
+.paynamics_form_container {
+	width: 100% !important; 
+	margin-bottom: 20px !important; 
+
+}
+.paynamics_logo_holder {
+	text-align: center !important; 
+	margin-top: 10px !important; 
+}
+.paynamics_title {
+	font-size: 36px !important; 
+	text-align: center !important; 
+	margin-bottom: 0 !important; 
+}
+.paynamics_name_donation {
+	font-size: 24px !important; 
+	text-align: center !important; 
+	margin-top: 0 !important; 
+}
+.paynamics_button_wrapper {
+	text-align: center !important; 
+	margin: 0 auto !important; 
+}
+.paynamics_button{
+	background-color: #184ea2 !important;
+	border: none !important; 
+	color: white !important; 
+	padding: 15px 32px !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	display: inline-block !important;
+	font-size: 16px !important;
+	margin: 4px 2px !important;
+	cursor: pointer !important;
+	-webkit-transition: background-color 1s !important;  /* Safari */
+  	transition: background-color 1s !important; 
+  	border-radius: 99px !important; 
+  	margin: 0 auto !important; 
+}
+.paynamics_button:hover {
+	background-color: #E46824 !important;
+}
